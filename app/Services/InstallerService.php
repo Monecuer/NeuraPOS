@@ -188,7 +188,7 @@ class InstallerService
             File::put($envPath, $envContent);
 
             // Generate application key if not exists
-            if (strpos($envContent, 'APP_KEY=') === false || strpos($envContent, 'APP_KEY=base64:') === false) {
+            if (strpos($envContent, 'APP_KEY=your_app_key_here === false || strpos($envContent, 'APP_KEY=your_app_key_here === false) {
                 Artisan::call('key:generate', ['--force' => true]);
             }
 
