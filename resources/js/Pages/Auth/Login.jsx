@@ -91,7 +91,7 @@ export default function Login({ status, canResetPassword, version }) {
             </form>
             <div className="divide-y divide-gray-300 divde-solid">
             <div className="text-center py-2"></div>
-            <div className="text-center py-3 text-gray-400 uppercase">info shop version {version} <br></br> Developed by: infomax </div>
+            <div className="text-center py-3 text-gray-400 uppercase">neura pos version {version} <br></br> Developed by: Monecuer Inc </div>
             </div>
 
             <div className='flex justify-center'>
